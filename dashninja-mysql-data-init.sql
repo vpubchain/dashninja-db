@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.7.25, for Linux (x86_64)
 --
--- Host: localhost    Database: dashninja
+-- Host: localhost    Database: dashninja_test
 -- ------------------------------------------------------
 -- Server version	5.7.25-0ubuntu0.16.04.2
 
@@ -152,7 +152,7 @@ CREATE TABLE `cmd_portcheck_config` (
 
 LOCK TABLES `cmd_portcheck_config` WRITE;
 /*!40000 ALTER TABLE `cmd_portcheck_config` DISABLE KEYS */;
-INSERT INTO `cmd_portcheck_config` VALUES (0,120100,'0.12.1.5',70206,_binary 'økΩ'),(1,120200,'0.12.2.0',70208,_binary '\Œ\‚\ ˇ');
+INSERT INTO `cmd_portcheck_config` VALUES (0,120200,'0.12.2.3',70208,_binary 'ê\rê<'),(1,120200,'0.12.2.3',70208,_binary 'ê\rê<');
 /*!40000 ALTER TABLE `cmd_portcheck_config` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -165,4 +165,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-02-16 11:55:39
+-- Dump completed on 2019-02-21 17:20:15
